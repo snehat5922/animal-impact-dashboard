@@ -1,9 +1,0 @@
-from PIL import Image
-import streamlit as st
-
-banner = Image.open("assets/banner.png")
-
-st.image(
-    banner,
-    use_container_width=True
-)
