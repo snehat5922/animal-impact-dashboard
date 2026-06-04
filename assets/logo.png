@@ -1,0 +1,9 @@
+from PIL import Image
+import streamlit as st
+
+logo = Image.open("assets/logo.png")
+
+st.image(
+    logo,
+    width=300
+)
